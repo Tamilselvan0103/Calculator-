@@ -1,4 +1,4 @@
-let output = document.getElementById(`input`)
+let output = document.getElementById(`result`)
 
 function display(num){
     output.value += num
@@ -8,7 +8,7 @@ function calcualte(){
         output.value = eval(output.value)
     }catch(err)
     {
-        alert("invalid input")
+        alert("Cannot read properties of null")
     }
 }
 

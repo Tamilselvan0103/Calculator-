@@ -56,3 +56,10 @@ button{
     box-shadow: inset -5px -5px 12px #ffffff,
     inset 5px 5px 12px rgba(0,0,0,.16);
 }
+h1{
+    text-align: center;
+    margin: 10px;
+}
+#description{
+    text-align: center;
+}
